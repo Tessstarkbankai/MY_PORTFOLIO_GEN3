@@ -28,7 +28,7 @@ export default function ScrollyCanvas({ frameCount }: Props) {
 
     for (let i = 1; i <= frameCount; i++) {
       const img = new Image();
-      img.src = `/frames/frame_${String(i).padStart(4, "0")}.jpg`;
+      img.src = `/frames1/frame_${String(i).padStart(4, "0")}.jpg`;
       images.push(img);
     }
 
